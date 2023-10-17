@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+
+            android:text="@string/investment_strategies"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="8dp"
+
+            android:text="@string/investment_strategies_p1"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="10dp"
+            app:srcCompat="@drawable/graph1_investment_strategies" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="40dp"
+            app:srcCompat="@drawable/graph2_investment_strategies" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="8dp"
+
+            android:text="@string/investment_strategies_p2"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="8dp"
+
+            android:text="@string/investment_strategies_p3"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="40dp"
+            app:srcCompat="@drawable/graph3_investment_strategies" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="40dp"
+            app:srcCompat="@drawable/graph4_investment_strategies" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="8dp"
+
+            android:text="@string/investment_strategies_p4"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="8dp"
+
+            android:text="@string/investment_strategies_p5"
+            android:textSize="14sp"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginHorizontal="40dp"
+            app:srcCompat="@drawable/fedex_investment_strategies" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="8dp"
+
+            android:text="@string/investment_strategies_p6"
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="8dp"
+
+            android:text="@string/investment_strategies_p7"
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="8dp"
+
+            android:text="@string/investment_strategies_p8"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="8dp"
+
+            android:text="@string/investment_strategies_p9"
+            android:textSize="14sp"/>
+
+
+
+
+
+        <Button
+            android:id="@+id/finish_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp"
+            android:layout_marginHorizontal="100dp"
+            android:text="@string/complete"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
