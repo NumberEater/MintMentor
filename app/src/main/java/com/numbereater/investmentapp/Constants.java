@@ -10,8 +10,7 @@ public class Constants {
             R.layout.layout_risk_return,
             R.layout.layout_portfolio_construction,
             R.layout.layout_investment_strategies,
-            R.layout.layout_tax_considerations,
-            R.layout.layout_investing_platforms
+            R.layout.layout_tax_considerations
     };
 
     public static final int[] LESSON_BUTTON_TEXT_VALUES = {
@@ -21,8 +20,7 @@ public class Constants {
             R.string.risk_return_learn,
             R.string.portfolio_construction_learn,
             R.string.investment_strategies_learn,
-            R.string.tax_considerations_learn,
-            R.string.investing_platforms_learn
+            R.string.tax_considerations_learn
     };
 
     public static final int BUTTON_COMPLETE_STYLE =

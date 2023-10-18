@@ -1,110 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     android:id="@+id/learn_fragment_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
-    tools:context=".AccountFragment">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/learn_title"
-        android:textSize="36sp"
-        android:layout_margin="20dp"/>
-
-    <Button
-        android:id="@+id/investment_basics_button"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="10dp"
-        android:layout_marginHorizontal="20dp"
-        android:text="@string/investment_basics_learn"
-        />
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:context=".AccountFragment">
 
-    <Button
-        android:id="@+id/financial_goals_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="10dp"
-        android:layout_marginHorizontal="20dp"
-        android:text="@string/financial_goals_learn"
-        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/learn_title"
+            android:textSize="36sp"
+            android:layout_margin="20dp"/>
 
-    <Button
-        android:id="@+id/investment_securities_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="10dp"
-        android:layout_marginHorizontal="20dp"
-        android:text="@string/investment_securities_learn"
-        />
+        <Button
+            android:id="@+id/investment_basics_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/investment_basics_learn"
+            />
 
-    <Button
-        android:id="@+id/risk_return_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="10dp"
-        android:layout_marginHorizontal="20dp"
-        android:text="@string/risk_return_learn"
-        />
+        <Button
+            android:id="@+id/financial_goals_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/financial_goals_learn"
+            />
 
-    <Button
-        android:id="@+id/portfolio_construction_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="10dp"
-        android:layout_marginHorizontal="20dp"
-        android:text="@string/portfolio_construction_learn"
-        />
+        <Button
+            android:id="@+id/investment_securities_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/investment_securities_learn"
+            />
 
-    <Button
-        android:id="@+id/investment_strategies_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="10dp"
-        android:layout_marginHorizontal="20dp"
-        android:text="@string/investment_strategies_learn"
-        />
+        <Button
+            android:id="@+id/risk_return_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/risk_return_learn"
+            />
 
-    <Button
-        android:id="@+id/tax_considerations_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="10dp"
-        android:layout_marginHorizontal="20dp"
-        android:text="@string/tax_considerations_learn"
-        />
+        <Button
+            android:id="@+id/portfolio_construction_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/portfolio_construction_learn"
+            />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/extra_info"
-        android:textSize="24sp"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginHorizontal="20dp"/>
+        <Button
+            android:id="@+id/investment_strategies_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/investment_strategies_learn"
+            />
 
-    <Button
-        android:id="@+id/investing_platforms_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="10dp"
-        android:layout_marginHorizontal="20dp"
-        android:text="@string/investing_platforms_learn"
-        />
+        <Button
+            android:id="@+id/tax_considerations_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/tax_considerations_learn"
+            />
 
-    <Button
-        android:id="@+id/resources_tools_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="10dp"
-        android:layout_marginHorizontal="20dp"
-        android:text="@string/resources_tools_learn"
-        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/extra_info"
+            android:textSize="24sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="20dp"/>
 
+        <Button
+            android:id="@+id/investing_platforms_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/investing_platforms_learn"
+            android:backgroundTint="#ff444444"
+            />
+
+        <Button
+            android:id="@+id/resources_tools_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/resources_tools_learn"
+            android:backgroundTint="#ff444444"
+            />
 </LinearLayout>
+</ScrollView>

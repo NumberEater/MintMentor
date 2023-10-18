@@ -18,26 +18,6 @@ class LearnFragment : Fragment() {
         intent.putExtra("lesson-id", lessonId)
         startActivity(intent)
     }
-
-//    private fun createLessonButton(
-//        textResourceId: Int,
-//        isCompleteStyle: Boolean,
-//        layout: ViewGroup
-//    ) {
-//
-//        var localContext = context
-//
-//        if (isCompleteStyle) {
-//            localContext = ContextThemeWrapper(context, Constants.BUTTON_COMPLETE_STYLE)
-//        }
-//
-//        val button = Button(localContext)
-//        button.setText(textResourceId)
-//
-//        val layoutParams = LayoutParams()
-//
-//
-//    }
     
     private fun configureButtons(layout: View) {
         val lessonButtons = arrayOf(
@@ -47,8 +27,7 @@ class LearnFragment : Fragment() {
             layout.findViewById<Button>(R.id.risk_return_button),
             layout.findViewById<Button>(R.id.portfolio_construction_button),
             layout.findViewById<Button>(R.id.investment_strategies_button),
-            layout.findViewById<Button>(R.id.tax_considerations_button),
-            layout.findViewById<Button>(R.id.investing_platforms_button)
+            layout.findViewById<Button>(R.id.tax_considerations_button)
         )
 
         val database = LessonProgressDatabase(requireContext())
@@ -59,6 +38,16 @@ class LearnFragment : Fragment() {
             }
         }
         database.close()
+
+        val investingPlatformsButton = layout.findViewById<Button>(R.id.investing_platforms_button)
+        investingPlatformsButton.setOnClickListener {
+            startActivity(Intent(context, InvestingPlatformsActivity::class.java))
+        }
+
+        val resourcesToolsButton = layout.findViewById<Button>(R.id.resources_tools_button)
+        resourcesToolsButton.setOnClickListener {
+            startActivity(Intent(context, ResourcesToolsActivity::class.java))
+        }
     }
 
     override fun onCreateView(

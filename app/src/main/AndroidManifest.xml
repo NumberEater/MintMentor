@@ -12,6 +12,12 @@
         android:theme="@style/Theme.InvestmentApp"
         tools:targetApi="33">
         <activity
+            android:name=".ResourcesToolsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InvestingPlatformsActivity"
+            android:exported="false" />
+        <activity
             android:name=".LessonActivity"
             android:exported="false" />
         <activity
