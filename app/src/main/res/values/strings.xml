@@ -75,6 +75,53 @@
     <string name="investment_basics_vocabulary">Vocabulary</string>
 
 
+    <string name="investment_basics_q1">A bear market generally means which of the following?</string>
+
+    <string name="investment_basics_q1_a1">Higher stock prices</string>
+    <string name="investment_basics_q1_a2">Technology companies come out with new products</string>
+    <string name="investment_basics_q1_a3">The stock market</string>
+    <string name="investment_basics_q1_a4">The government places higher taxes on companies</string>
+    <string name="investment_basics_q1_a5">Decreased investor confidence</string>
+
+
+    <string name="investment_basics_q2">Profit in the stock market is usually called</string>
+
+    <string name="investment_basics_q2_a1">Net gains</string>
+    <string name="investment_basics_q2_a2">Net profit</string>
+    <string name="investment_basics_q2_a3">Capital gains</string>
+    <string name="investment_basics_q2_a4">Capital profit</string>
+    <string name="investment_basics_q2_a5">Profitable gains</string>
+
+
+    <string name="investment_basics_q3">The stock abbreviation used in trading is most often called the</string>
+
+    <string name="investment_basics_q3_a1">Stock symbol</string>
+    <string name="investment_basics_q3_a2">Stock abbreviation</string>
+    <string name="investment_basics_q3_a3">Ticker symbol</string>
+    <string name="investment_basics_q3_a4">Stock share</string>
+    <string name="investment_basics_q3_a5">Stock information</string>
+
+
+    <string name="investment_basics_q4">The Dow Jones Industrial Average is an example of</string>
+
+    <string name="investment_basics_q4_a1">The S&amp;P 500</string>
+    <string name="investment_basics_q4_a2">A stock index</string>
+    <string name="investment_basics_q4_a3">Average stock prices over 200 days</string>
+    <string name="investment_basics_q4_a4">Average stock prices over 50 days</string>
+    <string name="investment_basics_q4_a5">A portfolio</string>
+
+
+    <string name="investment_basics_q5">A stock is an example of</string>
+
+    <string name="investment_basics_q5_a1">A company</string>
+    <string name="investment_basics_q5_a2">An asset</string>
+    <string name="investment_basics_q5_a3">The Dow Jones Industrial Average</string>
+    <string name="investment_basics_q5_a4">Volatility</string>
+    <string name="investment_basics_q5_a5">An Index</string>
+
+
+
+
     <!-- Setting Financial Goals -->
     <string name="financial_goals">Setting Financial Goals</string>
     <string name="financial_goals_p1">There are many steps to setting effective and reachable financial goals.</string>
@@ -88,6 +135,42 @@
     <string name="financial_goals_p5">Then, assign a realistic time frame to each goal to create a sense of urgency and encourage consistent effort towards achieving the goal. Regularly track your progress toward your financial goals. If circumstances change, be flexible and adjust your goals accordingly. Life events, personal growth, and external factors can all influence your goals.</string>
 
     <string name="financial_goals_p6">We’ll start talking about how you can meet these financial goals by investing now, and talk about Investment Securities.</string>
+
+    
+    <string name="financial_goals_q1">The first step in the financial goal setting process is</string>
+    <string name="financial_goals_q1_a1">Brainstorm any potential goals</string>
+    <string name="financial_goals_q1_a2">Ensuring goals are realistic</string>
+    <string name="financial_goals_q1_a3">Evaluate your financial situation</string>
+    <string name="financial_goals_q1_a4">Thinking about which of your goals is realistic</string>
+    <string name="financial_goals_q1_a5">Tracking progress towards any potential goals</string>
+
+    <string name="financial_goals_q2">What are the three main types of goals to think about?</string>
+    <string name="financial_goals_q2_a1">Short term, medium term, and long term</string>
+    <string name="financial_goals_q2_a2">Immediate future, short term, long term</string>
+    <string name="financial_goals_q2_a3">Immediate future, medium term, long term</string>
+    <string name="financial_goals_q2_a4">Medium term, long term, very long term</string>
+    <string name="financial_goals_q2_a5">Medium term (focus the most on), immediate future, long term</string>
+
+    <string name="financial_goals_q3">Which of the following is an example of a good short-term goal?</string>
+    <string name="financial_goals_q3_a1">Save for the future within six months</string>
+    <string name="financial_goals_q3_a2">Accumulate $500 for savings within a year</string>
+    <string name="financial_goals_q3_a3">Make more money over the next two years</string>
+    <string name="financial_goals_q3_a4">Accumulate $20,000 for a down payment on a house within 5 years</string>
+    <string name="financial_goals_q3_a5">Save enough for a future child’s education</string>
+
+    <string name="financial_goals_q4">Which of the following is important to include when setting a goal?</string>
+    <string name="financial_goals_q4_a1">A goal that you are likely not able to meet, but will try your hardest to meet</string>
+    <string name="financial_goals_q4_a2">A goal that you will likely be able to meet</string>
+    <string name="financial_goals_q4_a3">A very broad goal that can guide many different parts of your life</string>
+    <string name="financial_goals_q4_a4">Track progress once a year to ensure you are meeting the goal</string>
+    <string name="financial_goals_q4_a5">Maintain your original goals and try to meet them no matter what, even if some circumstances change</string>
+
+    <string name="financial_goals_q5">Which of the following is NOT an important characteristic of a goal?</string>
+    <string name="financial_goals_q5_a1">The goal is measurable</string>
+    <string name="financial_goals_q5_a2">The goal is somewhat specific</string>
+    <string name="financial_goals_q5_a3">The goal is broad and allows you to complete multiple tasks within it</string>
+    <string name="financial_goals_q5_a4">The goal has a time frame</string>
+    <string name="financial_goals_q5_a5">The goal is regularly tracked</string>
 
 
     <!-- Investment Securities -->
@@ -131,6 +214,83 @@
         Bid, Ask, and the rest of the concepts will be discussed later.</string>
 
 
+    <string name="investment_securities_q1">Which of the following is NOT a security in the investing world?</string>
+    <string name="investment_securities_q1_a1">Bonds</string>
+    <string name="investment_securities_q1_a2">Stocks</string>
+    <string name="investment_securities_q1_a3">Mutual Funds</string>
+    <string name="investment_securities_q1_a4">ETFs</string>
+    <string name="investment_securities_q1_a5">The government to prevent someone from committing stock fraud</string>
+
+    <string name="investment_securities_q2">When is the stock market usually closed all day?</string>
+    <string name="investment_securities_q2_a1">On the weekends</string>
+    <string name="investment_securities_q2_a2">On Fridays</string>
+    <string name="investment_securities_q2_a3">On the weekends and on Fridays</string>
+    <string name="investment_securities_q2_a4">Election day</string>
+    <string name="investment_securities_q2_a5">Election day and the weekends</string>
+
+    <string name="investment_securities_q3">The closing price of a stock is the price at, in EST,</string>
+    <string name="investment_securities_q3_a1">Midnight</string>
+    <string name="investment_securities_q3_a2">Noon</string>
+    <string name="investment_securities_q3_a3">8:00pm</string>
+    <string name="investment_securities_q3_a4">4:00pm</string>
+    <string name="investment_securities_q3_a5">9:30am</string>
+
+    <string name="investment_securities_q4">The volume of a stock shows</string>
+    <string name="investment_securities_q4_a1">How many shares have been traded on a given day</string>
+    <string name="investment_securities_q4_a2">The area covered by the stock’s graph</string>
+    <string name="investment_securities_q4_a3">How much the stock costs</string>
+    <string name="investment_securities_q4_a4">The average price of the stock over the past year</string>
+    <string name="investment_securities_q4_a5">The average price of the stock over the past day</string>
+
+    <string name="investment_securities_q5">If you buy ten shares of ROKU at $5.00, and it goes up to $10.00, how much did you make in capital gains (profit)?</string>
+    <string name="investment_securities_q5_a1">$5.00, because the difference between $10.00 and $5.00 is $5</string>
+    <string name="investment_securities_q5_a2">$50.00, because you made $5.00 on each of your ten shares</string>
+    <string name="investment_securities_q5_a3">- $50.00, because you bought the stock at a lower price than it currently is at</string>
+    <string name="investment_securities_q5_a4">- $5.00, because you bought the stock at a higher price than it is currently at</string>
+    <string name="investment_securities_q5_a5">$0.00, because you never sold the stock, so there are no capital gains</string>
+
+    <string name="investment_securities_q6">True or False: The stock market is only open between 9:30am and 4:00pm EST Monday-Friday</string>
+    <string name="investment_securities_q6_a1">False, the stock market is not open on Fridays</string>
+    <string name="investment_securities_q6_a2">False, the stock market is open between 9:30am and 4:00pm PST, not EST</string>
+    <string name="investment_securities_q6_a3">False, some platforms allow people to trade pre-market and after-hours in addition to these times</string>
+    <string name="investment_securities_q6_a4">True, these are the only times that someone can trade during the year, but sometimes the stock market is closed for holidays</string>
+    <string name="investment_securities_q6_a5">True, the stock market is open each Monday-Friday of the year from 9:30am to 4:00pm EST</string>
+
+    <string name="investment_securities_q7">The opening price of a stock is its price at, in EST,</string>
+    <string name="investment_securities_q7_a1">9:30 am, when regular trading begins</string>
+    <string name="investment_securities_q7_a2">6:00 am, when early trading begins</string>
+    <string name="investment_securities_q7_a3">4:00 pm, when after-hours trading begins</string>
+    <string name="investment_securities_q7_a4">8:00 pm, when after-hours trading begins</string>
+    <string name="investment_securities_q7_a5">12:00 am (midnight), when the day opens</string>
+
+    <string name="investment_securities_q8">Debt securities issued by governments or corporations are called</string>
+    <string name="investment_securities_q8_a1">Mutual Funds</string>
+    <string name="investment_securities_q8_a2">Government Funding</string>
+    <string name="investment_securities_q8_a3">Bonds</string>
+    <string name="investment_securities_q8_a4">Stocks, but some are called ETFs</string>
+    <string name="investment_securities_q8_a5">Commodities</string>
+
+    <string name="investment_securities_q9">Periodic payments that are distributed by companies as a portion of their earnings are called</string>
+    <string name="investment_securities_q9_a1">Loans</string>
+    <string name="investment_securities_q9_a2">Investor Gratitude</string>
+    <string name="investment_securities_q9_a3">Capital Gains</string>
+    <string name="investment_securities_q9_a4">Goodwill</string>
+    <string name="investment_securities_q9_a5">Dividends</string>
+
+
+    <string name="investment_securities_q10">Examples of commodities include ALL except</string>
+    <string name="investment_securities_q10_a1">Stocks</string>
+    <string name="investment_securities_q10_a2">Gold</string>
+    <string name="investment_securities_q10_a3">Oil and Natural Resources</string>
+    <string name="investment_securities_q10_a4">Agriculture</string>
+    <string name="investment_securities_q10_a5">Cows</string>
+
+
+
+
+
+
+
     <!-- Risk and Return -->
     <string name="risk_and_return">Risk &amp; Return</string>
 
@@ -145,6 +305,43 @@
     <string name="risk_return_p5">During a recession (when the economy is not doing well), it may be a good idea to shift away from cyclical stocks - companies that make money from unnecessary spending and follow the pattern of the economy, like Disney, Travel Companies, and other more “luxury” companies, and move to non-cyclicals - essentials like Kroger and things needed no matter the state of the economy.</string>
 
     <string name="risk_return_p6">We’ll discuss stop loss orders soon as well, which can be a method of preventing losses and keeping profits. In order to mitigate risk and improve returns, it’s important to keep a diversified portfolio, and that’s what we’ll talk about next.</string>
+
+
+    <string name="risk_return_q1">What is the Dow Jones Industrial Average?</string>
+    <string name="risk_return_q1_a1">An index measuring the stock prices of 30 companies</string>
+    <string name="risk_return_q1_a2">An average of all large companies’ stock prices in the United States</string>
+    <string name="risk_return_q1_a3">An average of all large companies’ stock prices in the world</string>
+    <string name="risk_return_q1_a4">The average number of shares bought and sold in the US over a day</string>
+    <string name="risk_return_q1_a5">The average number of shares bought and sold in the World over a day</string>
+
+    <string name="risk_return_q2">As a general rule of thumb, which of the following times should cause you to sell the stock most often?</string>
+    <string name="risk_return_q2_a1">After the price increases by $10 per share</string>
+    <string name="risk_return_q2_a2">After you make enough money to purchase something you would like</string>
+    <string name="risk_return_q2_a3">After a company decides to create a new product</string>
+    <string name="risk_return_q2_a4">After a share price increases by 300% or more over a short period of time</string>
+    <string name="risk_return_q2_a5">After the prices increases by over $100 per share</string>
+
+    <string name="risk_return_q3">During a recession, which of the following companies should you not invest in?</string>
+    <string name="risk_return_q3_a1">Royal Caribbean Cruises</string>
+    <string name="risk_return_q3_a2">Kroger</string>
+    <string name="risk_return_q3_a3">CVS</string>
+    <string name="risk_return_q3_a4">All companies based in China</string>
+    <string name="risk_return_q3_a5">Any non-cyclical stock</string>
+
+    <string name="risk_return_q4">Which of the following is an example of a cyclical stock?</string>
+    <string name="risk_return_q4_a1">Campbell’s Soup</string>
+    <string name="risk_return_q4_a2">McDonald\'s</string>
+    <string name="risk_return_q4_a3">Amazon</string>
+    <string name="risk_return_q4_a4">DTE Energy</string>
+    <string name="risk_return_q4_a5">Eli Lilly</string>
+
+    <string name="risk_return_q5">Which is the best reason to generally avoid “meme” stocks?</string>
+    <string name="risk_return_q5_a1">You should not trust people on Reddit for investing advice</string>
+    <string name="risk_return_q5_a2">There are only a few meme stocks that actually go up</string>
+    <string name="risk_return_q5_a3">Meme stocks are often more volatile than typical stocks, which can result in larger losses</string>
+    <string name="risk_return_q5_a4">Meme stocks are often too expensive to purchase</string>
+    <string name="risk_return_q5_a5">Meme stocks increase in price too fast</string>
+
 
 
     <!-- Portfolio Construction -->
@@ -170,6 +367,42 @@
 
     <string name="portfolio_construction_p10">As a general rule of thumb, it is often best to diversify your portfolio across these sectors, and own shares of at least 3–5 companies in each sector listed above to begin, and the number should be generally similar across each sector. If you’re having trouble deciding which ones to purchase, that’s what we’ll look at next, with Investment Strategies, Research, and Analysis.</string>
 
+    <string name="portfolio_construction_q1">JETS includes many companies, so it is an example of a(n)</string>
+    <string name="portfolio_construction_q1_a1">Stock</string>
+    <string name="portfolio_construction_q1_a2">Bond</string>
+    <string name="portfolio_construction_q1_a3">ETF</string>
+    <string name="portfolio_construction_q1_a4">Share</string>
+    <string name="portfolio_construction_q1_a5">Index</string>
+
+    <string name="portfolio_construction_q2">SPY is an Index-wide ETF that mirrors the price of the S&amp;P 500 (at a 10x smaller interval). If SPY increases in price by 5%, what does this show about the change in price of the S&amp;P 500?</string>
+    <string name="portfolio_construction_q2_a1">The S&amp;P 500 has increased in price by 5%</string>
+    <string name="portfolio_construction_q2_a2">The S&amp;P 500 has decreased in price by 50%</string>
+    <string name="portfolio_construction_q2_a3">The S&amp;P 500 has increased in price by 50%</string>
+    <string name="portfolio_construction_q2_a4">The S&amp;P 500 has decreased in price by $50</string>
+    <string name="portfolio_construction_q2_a5">The S&amp;P 500 has increased in price by $50</string>
+
+    <string name="portfolio_construction_q3">Which of the following is not a sector of the S&amp;P 500?</string>
+    <string name="portfolio_construction_q3_a1">Real Estate</string>
+    <string name="portfolio_construction_q3_a2">Energy</string>
+    <string name="portfolio_construction_q3_a3">Communication Services</string>
+    <string name="portfolio_construction_q3_a4">Cyclical/Luxury</string>
+    <string name="portfolio_construction_q3_a5">Materials</string>
+
+    <string name="portfolio_construction_q4">Examples of companies in the Industrial Sector include all of the following EXCEPT</string>
+    <string name="portfolio_construction_q4_a1">American Airlines</string>
+    <string name="portfolio_construction_q4_a2">FedEx</string>
+    <string name="portfolio_construction_q4_a3">3M Company</string>
+    <string name="portfolio_construction_q4_a4">Exxon Mobil</string>
+    <string name="portfolio_construction_q4_a5">Caterpillar Inc</string>
+
+    <string name="portfolio_construction_q5">Carnival Cruise Line (CCL) has several cruises that have mechanical issues, so the stock price falls by 10% in one day. However, your portfolio only decreases in value by 2% that day. Which of the following could explain this?</string>
+    <string name="portfolio_construction_q5_a1">Carnival Cruise Line increases in the next day</string>
+    <string name="portfolio_construction_q5_a2">You own shares of companies other than Carnival Cruise Line</string>
+    <string name="portfolio_construction_q5_a3">You own an ETF that includes Carnival Cruise Line</string>
+    <string name="portfolio_construction_q5_a4">You ignore the news of Carnival Cruise Line, so your shares are not impacted</string>
+    <string name="portfolio_construction_q5_a5">Both b and c are possible</string>
+
+
 
     <!-- Investment Strategies -->
     <string name="investment_strategies">Investment Strategies, Research, and Analysis</string>
@@ -192,6 +425,42 @@
 
     <string name="investment_strategies_p9">It’s also important to pay attention to jobs report data, which can give an overall view of the economy and therefore consumer sentiment. The data is usually released monthly, on the morning of the first Friday. The CPI (measure of inflation) is also released monthly (between the first and second week of the month), and both can impact the stock market. Finally, pay attention to the decisions of the Federal Reserve. Usually, when they raise interest rates, investing decreases and the market drops (or often will drop at some point in the future). However, when they decrease interest rates, the opposite happens. These can help indicate the strength of the economy and stock market.</string>
 
+    <string name="investment_strategies_q1">An Arms Index value under 1 most directly represents</string>
+    <string name="investment_strategies_q1_a1">A good buying opportunity</string>
+    <string name="investment_strategies_q1_a2">A good selling opportunity</string>
+    <string name="investment_strategies_q1_a3">A good opportunity to hold a stock where it is at</string>
+    <string name="investment_strategies_q1_a4">A potential time of volatility</string>
+    <string name="investment_strategies_q1_a5">A potential time of calmness in the stock market</string>
+
+    <string name="investment_strategies_q2">A dividend date for Company A is January 3rd, you own 10 shares, and the dividend is $4.00. How much will you be paid per share on July 3rd?</string>
+    <string name="investment_strategies_q2_a1">$0.00, because the dividend date is on January 3rd</string>
+    <string name="investment_strategies_q2_a2">$2.00, because July 3rd is halfway through the year</string>
+    <string name="investment_strategies_q2_a3">$4.00, because the dividend is $4.00</string>
+    <string name="investment_strategies_q2_a4">$1.00, because the ¼ of the dividend is distributed quarterly</string>
+    <string name="investment_strategies_q2_a5">$8.00, because the dividend doubles every 6 months</string>
+
+    <string name="investment_strategies_q3">When the Federal Reserve increases interest rates, the stock prices in the stock market are most likely to</string>
+    <string name="investment_strategies_q3_a1">Decrease, because less money will be borrowed and put into the stock market</string>
+    <string name="investment_strategies_q3_a2">Decrease, because more money will be borrowed and put into the stock market</string>
+    <string name="investment_strategies_q3_a3">Increase, because less money will be borrowed and put into the stock market</string>
+    <string name="investment_strategies_q3_a4">Increase, because more money will be borrowed and put into the stock market</string>
+    <string name="investment_strategies_q3_a5">Stock prices will likely not change</string>
+
+    <string name="investment_strategies_q4">You find a stock that has a P/E ratio of 20. In most cases, should you buy the stock?</string>
+    <string name="investment_strategies_q4_a1">No, as the P/E ratio shows it may be slightly undervalued</string>
+    <string name="investment_strategies_q4_a2">Yes, as the P/E ratio shows it may be slightly undervalued</string>
+    <string name="investment_strategies_q4_a3">Yes, as the P/E ratio shows it may be slightly overvalued</string>
+    <string name="investment_strategies_q4_a4">No, as the P/E ratio shows it may be slightly overvalued</string>
+    <string name="investment_strategies_q4_a5">Possibly, but you should wait to see the future P/E ratio</string>
+
+    <string name="investment_strategies_q5">You decide to invest in Alphabet Inc (GOOGL), a technology company. Which of the following is NOT true about the stock?</string>
+    <string name="investment_strategies_q5_a1">The stock is likely a growth stock</string>
+    <string name="investment_strategies_q5_a2">The stock is likely to suffer during economic downturn</string>
+    <string name="investment_strategies_q5_a3">The stock is likely to have a dividend</string>
+    <string name="investment_strategies_q5_a4">The stock is likely more risky than a typical value stock</string>
+    <string name="investment_strategies_q5_a5">The stock is likely to be affected by rising interest rates by the federal reserve</string>
+
+
 
     <!-- Tax Considerations -->
     <string name="tax_considerations">Tax Considerations</string>
@@ -212,6 +481,42 @@
     <string name="tax_considerations_p6">Finally, you can offset gains with $3,000 in losses each year. For example, if you make $10,000 in realized gains in one year, and have $3,000 in realized losses, you do not have to pay taxes on the $10,000, and instead only pay taxes on the $7,000, or your net gain. If you have more than $3,000 in losses, you can only offset $3,000 per year, but the remaining amount can go towards your taxes in future years.</string>
 
     <string name="tax_considerations_p7">For example, if you have an income of $70,000, and you have $10,000 in realized losses, you will only be taxed on $67,000 that year, as up to $3,000 in losses can be deducted from taxable income each year. The remaining $7,000 in realized losses will carry over to the next year, $4,000 to the next year, and so forth.</string>
+
+    <string name="tax_considerations_q1">You purchase Oracle stock (ORCL) in December 2022 at a price of $99 per share. In February 2024, you sell ORCL at a loss, at $85 per share. If you are single and making $65,000 per year, your tax rate on ORCL is</string>
+    <string name="tax_considerations_q1_a1">15%, because it is a long-term capital gain</string>
+    <string name="tax_considerations_q1_a2">0%, because you did not sell the stock for a gain, so you don’t have to pay taxes</string>
+    <string name="tax_considerations_q1_a3">20%, because it is a long-term capital gain</string>
+    <string name="tax_considerations_q1_a4">22%, because it is a short-term capital gain</string>
+    <string name="tax_considerations_q1_a5">37%, because you paid over $70 per share</string>
+
+    <string name="tax_considerations_q2">You purchase Amazon stock (AMZN) in January of 2023. In October 2023, you decide to sell AMZN. If you are single and making $70,000 a year, what is the tax rate you must pay on your gains?</string>
+    <string name="tax_considerations_q2_a1">12%</string>
+    <string name="tax_considerations_q2_a2">15%</string>
+    <string name="tax_considerations_q2_a3">22%</string>
+    <string name="tax_considerations_q2_a4">32%</string>
+    <string name="tax_considerations_q2_a5">37%</string>
+
+    <string name="tax_considerations_q3">If you have an unrealized loss of $3,000, but a realized gain of $5,000, how much do you have to pay taxes on during that year?</string>
+    <string name="tax_considerations_q3_a1">$2,000, because your $3,000 in losses can offset $3,000 of gains</string>
+    <string name="tax_considerations_q3_a2">$8,000, because you have to pay taxes on gains and losses</string>
+    <string name="tax_considerations_q3_a3">$0, because you do not have to pay taxes on either</string>
+    <string name="tax_considerations_q3_a4">$5,000, because you cannot offset your realized gains with an unrealized loss</string>
+    <string name="tax_considerations_q3_a5">$3,000, because you only pay taxes on unrealized gains and losses</string>
+
+    <string name="tax_considerations_q4">If you have a realized loss of $4,000, but a realized gain of $6,000, how much do you have to pay taxes on during that year?</string>
+    <string name="tax_considerations_q4_a1">$0, because you only pay taxes on unrealized gains and losses</string>
+    <string name="tax_considerations_q4_a2">$2,000, because your $4,000 in losses offsets $4,000 in gains</string>
+    <string name="tax_considerations_q4_a3">$10,000, because you must pay taxes on realized gains and losses</string>
+    <string name="tax_considerations_q4_a4">$3,000, because only $3,000 of realized gains can be offset by losses each year</string>
+    <string name="tax_considerations_q4_a5">$6,000, because you only pay taxes on realized gains</string>
+
+    <string name="tax_considerations_q5">What is considered true regarding a long-term vs short-term capital gain/realized gain?</string>
+    <string name="tax_considerations_q5_a1">Long term stocks have been held for over a year, while short term stocks have not</string>
+    <string name="tax_considerations_q5_a2">Long term stocks have been held for more than 5 years, while short term stocks have not</string>
+    <string name="tax_considerations_q5_a3">Long term stocks have been held for over a month, while short term stocks are ‘day traded’ stocks</string>
+    <string name="tax_considerations_q5_a4">Long term capital gains are taxed at a lower rate than short term capital gains</string>
+    <string name="tax_considerations_q5_a5">Answers A and D are both true</string>
+
 
 
     <!-- Investing Platforms -->

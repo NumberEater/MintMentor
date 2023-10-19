@@ -4,13 +4,13 @@ public class Constants {
     /* An array of layouts where the index of each
     layout corresponds to the lesson number */
     public static final int[] LESSONS = {
-            R.layout.layout_investment_basics,
-            R.layout.layout_setting_financial_goals,
-            R.layout.layout_investment_securities,
-            R.layout.layout_risk_return,
-            R.layout.layout_portfolio_construction,
-            R.layout.layout_investment_strategies,
-            R.layout.layout_tax_considerations
+            R.layout.lesson_investment_basics,
+            R.layout.lesson_setting_financial_goals,
+            R.layout.lesson_investment_securities,
+            R.layout.lesson_risk_return,
+            R.layout.lesson_portfolio_construction,
+            R.layout.lesson_investment_strategies,
+            R.layout.lesson_tax_considerations
     };
 
     public static final int[] LESSON_BUTTON_TEXT_VALUES = {
