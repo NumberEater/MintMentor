@@ -32,14 +32,14 @@ class LessonActivity : AppCompatActivity() {
 
     private fun returnToLearnFragment() {
         val intent = Intent(applicationContext, MainActivity::class.java)
-        intent.putExtra("lesson-complete", true)
+        intent.putExtra(Constants.LESSON_COMPLETE_INTENT_TAG, true)
         startActivity(intent)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        lessonId = intent.getIntExtra("lesson-id", -1)
+        lessonId = intent.getIntExtra(Constants.LESSON_ID_INTENT_TAG, -1)
         if (lessonId != -1) {
             setContentView(Constants.LESSONS[lessonId])
         } else {

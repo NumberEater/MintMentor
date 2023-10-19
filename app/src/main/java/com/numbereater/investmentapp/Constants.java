@@ -23,6 +23,9 @@ public class Constants {
             R.string.tax_considerations_learn
     };
 
+    public static final String LESSON_COMPLETE_INTENT_TAG = "lesson-complete";
+    public static final String LESSON_ID_INTENT_TAG = "lesson-id";
+
     public static final int BUTTON_COMPLETE_STYLE =
             com.google.android.material.R.style.Widget_Material3_Button_ElevatedButton;
 }

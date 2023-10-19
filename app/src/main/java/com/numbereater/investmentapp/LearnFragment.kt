@@ -11,11 +11,24 @@ import android.widget.Button
 import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 
-class LearnFragment : Fragment() {
+class LearnFragment : BottomNavigationFragment() {
+
+    override val bottomNavigationButtonId = R.id.learn_action
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val inflatedView = inflater.inflate(R.layout.fragment_learn, container, false)
+
+        configureButtons(inflatedView)
+
+        return inflatedView;
+    }
 
     private fun launchLesson(lessonId: Int) {
-        val intent = Intent(context, LessonActivity::class.java)
-        intent.putExtra("lesson-id", lessonId)
+        val intent = Intent(requireContext(), LessonActivity::class.java)
+        intent.putExtra(Constants.LESSON_ID_INTENT_TAG, lessonId)
         startActivity(intent)
     }
     
@@ -41,23 +54,12 @@ class LearnFragment : Fragment() {
 
         val investingPlatformsButton = layout.findViewById<Button>(R.id.investing_platforms_button)
         investingPlatformsButton.setOnClickListener {
-            startActivity(Intent(context, InvestingPlatformsActivity::class.java))
+            startActivity(Intent(requireContext(), InvestingPlatformsActivity::class.java))
         }
 
         val resourcesToolsButton = layout.findViewById<Button>(R.id.resources_tools_button)
         resourcesToolsButton.setOnClickListener {
-            startActivity(Intent(context, ResourcesToolsActivity::class.java))
+            startActivity(Intent(requireContext(), ResourcesToolsActivity::class.java))
         }
-    }
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        val inflatedView = inflater.inflate(R.layout.fragment_learn, container, false)
-
-        configureButtons(inflatedView)
-
-        return inflatedView;
     }
 }

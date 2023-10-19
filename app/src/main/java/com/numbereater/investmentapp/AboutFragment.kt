@@ -6,7 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-class AboutFragment : Fragment() {
+class AboutFragment : BottomNavigationFragment() {
+
+    override val bottomNavigationButtonId = R.id.about_action
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
