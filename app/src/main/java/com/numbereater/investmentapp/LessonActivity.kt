@@ -8,28 +8,46 @@ import android.widget.Button
 import kotlin.properties.Delegates
 
 class LessonActivity : AppCompatActivity() {
-    private var lessonId: Int = -1
+    private var lessonId = -1
+
+    private fun finishLessonButtonAction() {
+        if (!isLessonComplete()) {
+            setLessonComplete()
+        }
+        returnToLearnFragment()
+    }
+
+    private fun isLessonComplete(): Boolean {
+        val database = LessonProgressDatabase(applicationContext)
+        val isComplete = database.isComplete(lessonId)
+        database.close()
+        return isComplete
+    }
+
+    private fun setLessonComplete() {
+        val database = LessonProgressDatabase(applicationContext)
+        database.setLessonComplete(lessonId)
+        database.close()
+    }
+
+    private fun returnToLearnFragment() {
+        val intent = Intent(applicationContext, MainActivity::class.java)
+        intent.putExtra("lesson-complete", true)
+        startActivity(intent)
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         lessonId = intent.getIntExtra("lesson-id", -1)
         if (lessonId != -1) {
-            // Set layout to passed layoutId from learn fragment
             setContentView(Constants.LESSONS[lessonId])
         } else {
-            // Set empty view if no layout is passed
-            setContentView(View(applicationContext))
+            returnToLearnFragment()
         }
 
-        findViewById<Button>(R.id.finish_button)?.setOnClickListener {
-            val database = LessonProgressDatabase(applicationContext)
-            if (!database.isComplete(lessonId)) {
-                database.setLessonComplete(lessonId)
-            }
-            database.close()
-
-            val intent = Intent(applicationContext, MainActivity::class.java)
-            intent.putExtra("lesson-complete", true)
-            startActivity(intent)
+        findViewById<Button>(R.id.finish_button).setOnClickListener {
+            finishLessonButtonAction()
         }
     }
 }
