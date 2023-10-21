@@ -10,11 +10,8 @@ import kotlin.properties.Delegates
 class LessonActivity : AppCompatActivity() {
     private var lessonId = -1
 
-    private fun finishLessonButtonAction() {
-        if (!isLessonComplete()) {
-            setLessonComplete()
-        }
-        returnToLearnFragment()
+    private fun takeQuizButtonAction() {
+
     }
 
     private fun isLessonComplete(): Boolean {
@@ -46,8 +43,12 @@ class LessonActivity : AppCompatActivity() {
             returnToLearnFragment()
         }
 
-        findViewById<Button>(R.id.finish_button).setOnClickListener {
-            finishLessonButtonAction()
+        findViewById<Button>(R.id.take_quiz_button).setOnClickListener {
+            takeQuizButtonAction()
+        }
+
+        findViewById<Button>(R.id.return_to_learn_fragment).setOnClickListener {
+            returnToLearnFragment()
         }
     }
 }

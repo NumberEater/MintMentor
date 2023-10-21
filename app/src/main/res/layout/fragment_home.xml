@@ -15,4 +15,17 @@
 
         app:layout_constraintTop_toTopOf="parent"/>
 
+    <Button
+        android:id="@+id/clear_database_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_database"
+
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="50dp"
+
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

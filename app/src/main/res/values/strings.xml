@@ -2,6 +2,8 @@
     <string name="app_name">MintMentor</string>
     <string name="app_title">Mint Mentor</string>
 
+    <string name="clear_database">Clear Lesson Database</string>
+
     <!-- Labels for bottom navigation -->
     <string name="home_label">Home</string>
     <string name="learn_label">Learn</string>
@@ -17,7 +19,9 @@
     <string name="learn_investing">Learn about investing here!</string>
     <string name="logo_description">Investment App Logo</string>
 
-    <string name="complete">Finish Lesson</string>
+    <string name="complete">Take Quiz</string>
+    <string name="return_to_lessons">Return to Lessons</string>
+
 
     <string name="continue_learning">Continue Learning</string>
 
