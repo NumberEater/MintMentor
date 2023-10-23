@@ -1,6 +1,5 @@
 package com.numbereater.investmentapp
 
-import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -20,7 +19,7 @@ class QuestionPage(private val question: QuizQuestion) : Fragment() {
     private lateinit var questionButtons: Array<RadioButton>
     private lateinit var questionText: TextView
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         layout = inflater.inflate(R.layout.fragment_question_template, container, false) as LinearLayout
 
         findQuestionText()
@@ -34,7 +33,7 @@ class QuestionPage(private val question: QuizQuestion) : Fragment() {
     }
 
     private fun findQuestionText() {
-        questionText = layout.findViewById<TextView>(R.id.question_text)
+        questionText = layout.findViewById(R.id.question_text)
     }
 
     private fun setQuestionText() {

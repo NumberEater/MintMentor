@@ -16,7 +16,7 @@ object Constants {
     const val LESSON_ID_INTENT_TAG = "lesson-id"
     const val QUIZ_JSON_INTENT_TAG = "quiz-json"
     
-    val QUIZZES = arrayOf<LessonQuiz>(
+    val QUIZZES = arrayOf(
         LessonQuiz(
             arrayOf(
                 QuizQuestion(R.string.investment_basics_q1,

@@ -3,10 +3,8 @@ package com.numbereater.investmentapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Button
-import androidx.core.view.isVisible
 import com.google.gson.Gson
 import java.lang.RuntimeException
 
@@ -18,7 +16,7 @@ class QuizActivity : AppCompatActivity() {
 
     private lateinit var quiz: LessonQuiz
 
-    private var currentQuestionIndex = -1;
+    private var currentQuestionIndex = -1
     private lateinit var currentQuestionPage: QuestionPage
 
     override fun onCreate(savedInstanceState: Bundle?) {

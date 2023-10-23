@@ -1,11 +1,8 @@
 package com.numbereater.investmentapp
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.gson.Gson
 
 class MainActivity : AppCompatActivity() {
     private lateinit var bottomNavigation: BottomNavigationView

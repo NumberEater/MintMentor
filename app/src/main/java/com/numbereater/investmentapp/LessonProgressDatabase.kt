@@ -3,11 +3,10 @@ package com.numbereater.investmentapp
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import java.lang.RuntimeException
-import java.nio.file.ClosedFileSystemException
 
 class LessonProgressDatabase(context: Context) {
     companion object {
-        private const val CREATE_TABLE_IF_NEXISTS = "CREATE TABLE IF NOT EXISTS CompletedLessons(LessonID INTEGER UNIQUE)"
+        private const val CREATE_TABLE = "CREATE TABLE IF NOT EXISTS CompletedLessons(LessonID INTEGER UNIQUE)"
         private const val CLEAR_DATABASE = "DELETE FROM CompletedLessons"
 
         private const val DATABASE_CLOSED_EXCEPTION_MESSAGE = "Database has been closed"
@@ -24,14 +23,16 @@ class LessonProgressDatabase(context: Context) {
         )
         isOpen = true
 
-        localDatabase.execSQL(CREATE_TABLE_IF_NEXISTS)
+        localDatabase.execSQL(CREATE_TABLE)
     }
 
     fun isComplete(lessonId: Int): Boolean {
         checkIsOpen()
 
         val cur = localDatabase.rawQuery("SELECT * FROM CompletedLessons WHERE LessonID=$lessonId", null)
-        return cur.moveToFirst()
+        val isComplete = cur.moveToFirst()
+        cur.close()
+        return isComplete
     }
 
     fun setLessonComplete(lessonId: Int) {

@@ -3,13 +3,10 @@ package com.numbereater.investmentapp
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.LinearLayout
-import androidx.fragment.app.Fragment
 
 class LearnFragment : BottomNavigationFragment() {
 
@@ -23,7 +20,7 @@ class LearnFragment : BottomNavigationFragment() {
 
         configureButtons(inflatedView)
 
-        return inflatedView;
+        return inflatedView
     }
 
     private fun launchLesson(lessonId: Int) {
@@ -33,14 +30,14 @@ class LearnFragment : BottomNavigationFragment() {
     }
     
     private fun configureButtons(layout: View) {
-        val lessonButtons = arrayOf(
-            layout.findViewById<Button>(R.id.investment_basics_button),
-            layout.findViewById<Button>(R.id.financial_goals_button),
-            layout.findViewById<Button>(R.id.investment_securities_button),
-            layout.findViewById<Button>(R.id.risk_return_button),
-            layout.findViewById<Button>(R.id.portfolio_construction_button),
-            layout.findViewById<Button>(R.id.investment_strategies_button),
-            layout.findViewById<Button>(R.id.tax_considerations_button)
+        val lessonButtons: Array<Button> = arrayOf(
+            layout.findViewById(R.id.investment_basics_button),
+            layout.findViewById(R.id.financial_goals_button),
+            layout.findViewById(R.id.investment_securities_button),
+            layout.findViewById(R.id.risk_return_button),
+            layout.findViewById(R.id.portfolio_construction_button),
+            layout.findViewById(R.id.investment_strategies_button),
+            layout.findViewById(R.id.tax_considerations_button)
         )
 
         val database = LessonProgressDatabase(requireContext())
