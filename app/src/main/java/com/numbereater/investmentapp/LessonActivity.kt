@@ -5,26 +5,20 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import com.google.gson.Gson
 import kotlin.properties.Delegates
 
 class LessonActivity : AppCompatActivity() {
     private var lessonId = -1
 
     private fun takeQuizButtonAction() {
-
-    }
-
-    private fun isLessonComplete(): Boolean {
-        val database = LessonProgressDatabase(applicationContext)
-        val isComplete = database.isComplete(lessonId)
-        database.close()
-        return isComplete
-    }
-
-    private fun setLessonComplete() {
-        val database = LessonProgressDatabase(applicationContext)
-        database.setLessonComplete(lessonId)
-        database.close()
+        val gson = Gson()
+        val intent = Intent(applicationContext, QuizActivity::class.java)
+        intent.putExtra(
+            Constants.QUIZ_JSON_INTENT_TAG,
+            gson.toJson(Constants.QUIZZES[lessonId], LessonQuiz::class.java)
+        )
+        startActivity(intent)
     }
 
     private fun returnToLearnFragment() {

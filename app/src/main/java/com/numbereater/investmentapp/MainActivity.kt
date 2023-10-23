@@ -1,9 +1,11 @@
 package com.numbereater.investmentapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.gson.Gson
 
 class MainActivity : AppCompatActivity() {
     private lateinit var bottomNavigation: BottomNavigationView
@@ -13,19 +15,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        bottomNavigation = findViewById<BottomNavigationView>(R.id.bottom_navigation)
+        bottomNavigation = findViewById(R.id.bottom_navigation)
 
         loadRelevantFragment()
 
-        setRelevantBottomNavItem()
-
         configureNavigation()
+
+        setRelevantBottomNavItem()
     }
 
     private fun loadRelevantFragment() {
-        if (intent.extras?.getBoolean(Constants.LESSON_COMPLETE_INTENT_TAG) == true) {
-            val learnFragment = LearnFragment()
-            setActiveFragment(learnFragment)
+        if (intent.getBooleanExtra(Constants.LESSON_COMPLETE_INTENT_TAG, false)) {
+            setActiveFragment(LearnFragment())
         } else {
             setActiveFragment(HomeFragment())
         }

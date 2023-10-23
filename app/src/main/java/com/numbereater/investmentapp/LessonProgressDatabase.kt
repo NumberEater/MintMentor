@@ -13,7 +13,7 @@ class LessonProgressDatabase(context: Context) {
         private const val DATABASE_CLOSED_EXCEPTION_MESSAGE = "Database has been closed"
     }
 
-    private lateinit var localDatabase: SQLiteDatabase
+    private var localDatabase: SQLiteDatabase
     private var isOpen = false
 
     init {
@@ -36,9 +36,11 @@ class LessonProgressDatabase(context: Context) {
 
     fun setLessonComplete(lessonId: Int) {
         checkIsOpen()
-        localDatabase.execSQL("INSERT INTO CompletedLessons(LessonID) VALUES($lessonId)")
+        if (!isComplete(lessonId))
+            localDatabase.execSQL("INSERT INTO CompletedLessons(LessonID) VALUES($lessonId)")
     }
 
+    // NOT USED IN PRODUCTION //
     fun clearDatabase() {
         checkIsOpen()
         localDatabase.execSQL(CLEAR_DATABASE)

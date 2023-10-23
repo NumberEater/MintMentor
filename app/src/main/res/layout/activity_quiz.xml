@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center_horizontal">
+
+
+    <FrameLayout
+        android:id="@+id/question_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"/>
+
+    <Button
+        android:id="@+id/check_answer_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/check_answer"/>
+
+    <Button
+        android:id="@+id/next_question_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/next_question"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/finish_quiz_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/finish_quiz"
+        android:visibility="gone"/>
+
+</LinearLayout>

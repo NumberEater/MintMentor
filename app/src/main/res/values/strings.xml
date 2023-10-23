@@ -22,8 +22,20 @@
     <string name="complete">Take Quiz</string>
     <string name="return_to_lessons">Return to Lessons</string>
 
+    <string name="please_select_answer">Please Select an Answer</string>
+
+    <string name="next_question">Next Question</string>
+
 
     <string name="continue_learning">Continue Learning</string>
+
+    <string name="investment_basics_quiz">Investment Basics Quiz</string>
+    <string name="financial_goals_quiz">Financial Goals Quiz</string>
+    <string name="investment_securities_quiz">Investment Securities Quiz</string>
+    <string name="risk_return_quiz">Risk &amp; Return Quiz</string>
+    <string name="portfolio_construction_quiz">Portfolio Construction Quiz</string>
+    <string name="investment_strategies_quiz">Investment Strategies Quiz</string>
+    <string name="tax_considerations_quiz">Tax Considerations Quiz</string>
 
     <!-- Lesson Buttons -->
     <string name="investment_basics_learn">Lesson 1: Investment Basics</string>
@@ -545,6 +557,8 @@
 
 
     <string name="merrill_lynch">Merrill Lynch</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="finish_quiz">Finish Quiz</string>
 
 
 </resources>
