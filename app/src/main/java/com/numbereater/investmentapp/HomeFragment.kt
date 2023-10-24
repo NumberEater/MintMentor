@@ -5,6 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ProgressBar
+import android.widget.TextView
+import org.w3c.dom.Text
+import kotlin.math.ceil
 
 class HomeFragment : BottomNavigationFragment() {
     override val bottomNavigationButtonId = R.id.home_action
@@ -13,17 +17,21 @@ class HomeFragment : BottomNavigationFragment() {
         // Inflate the layout for this fragment
         val layout = inflater.inflate(R.layout.fragment_home, container, false)
 
-        layout.findViewById<Button>(R.id.clear_database_button).setOnClickListener {
-            clearDatabaseButtonAction()
-        }
+
+        val lessonProgressBar = layout.findViewById<ProgressBar>(R.id.lesson_completion_bar)
+        val lessonsCompletedLabel = layout.findViewById<TextView>(R.id.lesson_count_label)
+
+        val database = LessonProgressDatabase(requireContext())
+        val lessonsCompleted = database.getLessonsCompletedCount()
+        database.close()
+
+        lessonProgressBar.progress = ceil((100.0 / 7.0) * lessonsCompleted).toInt()
+
+        lessonsCompletedLabel.text = String.format(
+            "You've completed %d/7 lessons",
+            lessonsCompleted
+        )
 
         return layout
-    }
-
-    private fun clearDatabaseButtonAction() {
-        LessonProgressDatabase(requireContext()).let {
-            it.clearDatabase()
-            it.close()
-        }
     }
 }

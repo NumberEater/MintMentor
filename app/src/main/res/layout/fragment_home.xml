@@ -13,19 +13,61 @@
         android:layout_marginVertical="30dp"
         android:src="@drawable/mint_mentor_logo"
 
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/mint_mentor_logo" />
 
-    <Button
-        android:id="@+id/clear_database_button"
+    <LinearLayout
+        android:id="@+id/lesson_progress_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/clear_database"
+        android:orientation="vertical"
+        android:background="@drawable/lesson_progress_background"
 
-        android:layout_marginHorizontal="30dp"
-        android:layout_marginVertical="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="35dp"
+        android:padding="15dp"
 
-        app:layout_constraintTop_toBottomOf="@id/logo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo">
+
+    <TextView
+        android:id="@+id/lesson_completion_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="24sp"
+        android:text="@string/your_progress"
+        android:textAlignment="center"
+
+        app:layout_constraintBottom_toTopOf="@id/lesson_completion_bar"
+        app:layout_constraintTop_toBottomOf="@id/logo"/>
+
+    <ProgressBar
+        android:id="@+id/lesson_completion_bar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:max="100"
+        style="?android:progressBarStyleHorizontal"
+
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/lesson_completion_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/lesson_count_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        android:text="@string/you_completed_x_lessons"
+        android:textAlignment="center"
+
+        app:layout_constraintTop_toBottomOf="@id/lesson_completion_bar"/>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
