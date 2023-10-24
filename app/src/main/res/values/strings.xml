@@ -4,13 +4,22 @@
 
     <string name="clear_database">Clear Lesson Database</string>
 
+
     <!-- Labels for bottom navigation -->
     <string name="home_label">Home</string>
     <string name="learn_label">Learn</string>
     <string name="about_label">About</string>
     <string name="account_label">Account</string>
 
-    <string name="about_title">About Us</string>
+    <string name="about_title">Welcome to Mint Mentor!</string>
+    <string name="about_p1">This app provides the opportunity to learn about stocks and investing, in order to ensure a better financial future.</string>
+    <string name="about_p2">There are several sections to learn about investing throughout the app, covering in detail all necessary information to begin or enhance your investing experience.</string>
+    <string name="about_p3">The information in this app will take you through lessons on investing, risk management, building a successful portfolio, improving your financial literacy, and more</string>
+    <string name="about_p4">At the end of each lesson, you will see a quiz on each lesson to help you comprehend the material best.</string>
+    <string name="about_p5">We hope you enjoy!</string>
+    <string name="about_p6">Grant Reddick and Ronak Ailawadi, creators</string>
+
+
     <string name="account_title">Account</string>
     <string name="learn_title">Learn</string>
 
