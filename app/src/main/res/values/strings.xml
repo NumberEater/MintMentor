@@ -572,6 +572,7 @@
     <string name="you_completed_x_lessons">You\'ve completed x/7 lessons</string>
     <string name="mint_mentor_logo">Mint Mentor Logo</string>
     <string name="bottom_navigation_stocks">Stocks</string>
+    <string name="complete_database">Complete Lesson Database</string>
 
 
 </resources>
