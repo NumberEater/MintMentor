@@ -59,7 +59,7 @@ class LessonProgressDatabase(context: Context) {
     }
 
     // NOT USED IN PRODUCTION //
-    fun clearDatabase() {
+    fun removeAllEntries() {
         assertIsOpen()
         localDatabase.execSQL(CLEAR_DATABASE)
     }
