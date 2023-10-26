@@ -59,6 +59,10 @@ class MainActivity : AppCompatActivity() {
                     setActiveFragment(AboutFragment())
                     true
                 }
+                R.id.stocks_action -> {
+                    setActiveFragment(StocksFragment())
+                    true
+                }
                 else -> false
             }
         }
