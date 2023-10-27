@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ticker_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textSize="30sp"
+        android:textAlignment="center" />
+
+    <TableLayout
+        android:id="@+id/stock_data_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:text="@string/open"/>
+            <TextView
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:text="@string/high"/>
+            <TextView
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:text="@string/low"/>
+            <TextView
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:text="@string/close"/>
+            <TextView
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:text="@string/volume"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
