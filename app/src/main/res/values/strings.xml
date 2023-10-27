@@ -576,6 +576,12 @@
     <string name="mint_mentor_logo">Mint Mentor Logo</string>
     <string name="bottom_navigation_stocks">Stocks</string>
     <string name="complete_database">Complete Lesson Database</string>
+    <string name="enter_ticker_symbol">Enter a Ticker Symbol</string>
+    <string name="open">Open</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="close">Close</string>
+    <string name="volume">Volume</string>
 
 
 </resources>
