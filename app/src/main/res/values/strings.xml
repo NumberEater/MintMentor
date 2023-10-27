@@ -60,6 +60,9 @@
     <string name="resources_tools_learn">Resources &amp; Tools</string>
 
 
+    <string name="investopedia_link"><a href="https://www.investopedia.com/">Investopedia</a></string>
+
+
     <!-- Investment Basics -->
     <string name="investment_basics">Investment Basics</string>
 
