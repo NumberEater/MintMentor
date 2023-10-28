@@ -12,7 +12,11 @@ class ResourcesToolsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_resources_tools)
 
         websiteLinkViews = arrayOf<TextView>(
-            findViewById(R.id.investopedia_link)
+            findViewById(R.id.yahoo_finance_desc),
+            findViewById(R.id.market_watch_desc),
+            findViewById(R.id.cnbc_desc),
+            findViewById(R.id.federal_reserve_desc),
+            findViewById(R.id.investopedia_desc)
         )
         makeWebsiteLinksClickable()
     }

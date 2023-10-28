@@ -60,7 +60,20 @@
     <string name="resources_tools_learn">Resources &amp; Tools</string>
 
 
-    <string name="investopedia_link"><a href="https://www.investopedia.com/">Investopedia</a></string>
+    <!-- Resources and Tools -->
+    <string name="resources_and_tools">Resources &amp; Tools</string>
+    <string name="resources_tools_p1">There are a few useful resources that may help with your investing journey.</string>
+
+    <string name="yahoo_finance"><a href="https://finance.yahoo.com/trending-tickers">Yahoo Finance</a>: This is the website shown above in several pictures. It can be used for viewing stock prices (my primary use) and data, as well as economic news.</string>
+
+    <string name="market_watch"><a href="https://www.marketwatch.com/">MarketWatch</a>: MarketWatch also provides stock prices and data, although I primarily use it for economic news.</string>
+
+    <string name="cnbc"><a href="https://www.cnbc.com/">CNBC</a>: CNBC provides stock market data, analytics, and news. Their television channel covers the stock market full-time, and though not required to invest, I highly recommend it if you want to keep up to date with the stock market.</string>
+
+    <string name="federal_reserve"><a href="https://www.federalreserve.gov/">Federal Reserve</a>: The Federal Reserve’s website can keep you updated with any Federal Reserve decisions.</string>
+
+    <string name="investopedia"><a href="https://www.investopedia.com/">Investopedia</a>: This can help with any investing questions that may arise. It is a fantastic resource.</string>
+
 
 
     <!-- Investment Basics -->

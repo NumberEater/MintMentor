@@ -1,18 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ResourcesToolsActivity">
+<LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ResourcesToolsActivity"
-    android:orientation="vertical">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:padding="30dp">
 
   <TextView
-      android:id="@+id/investopedia_link"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:layout_marginTop="30dp"
+      android:layout_marginBottom="10dp"
+      android:textSize="35sp"
+      android:textAlignment="center"
 
-      android:text="@string/investopedia_link"/>
+      android:text="@string/resources_and_tools"/>
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginVertical="10dp"
+      android:textSize="20sp"
+      android:textAlignment="center"
+
+      android:text="@string/resources_tools_p1"/>
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginVertical="20dp"
+      android:background="@android:color/darker_gray"/>
+
+  <TextView
+      android:id="@+id/yahoo_finance_desc"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAlignment="center"
+      android:text="@string/yahoo_finance"
+      android:textSize="20sp"/>
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginVertical="20dp"
+      android:background="@android:color/darker_gray"/>
+
+
+  <TextView
+      android:id="@+id/market_watch_desc"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAlignment="center"
+      android:text="@string/market_watch"
+      android:textSize="20sp"/>
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginVertical="20dp"
+      android:background="@android:color/darker_gray"/>
+
+  <TextView
+      android:id="@+id/cnbc_desc"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAlignment="center"
+      android:text="@string/cnbc"
+      android:textSize="20sp"/>
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginVertical="20dp"
+      android:background="@android:color/darker_gray"/>
+  <TextView
+      android:id="@+id/federal_reserve_desc"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAlignment="center"
+      android:text="@string/federal_reserve"
+      android:textSize="20sp"/>
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginVertical="20dp"
+      android:background="@android:color/darker_gray"/>
+
+  <TextView
+      android:id="@+id/investopedia_desc"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAlignment="center"
+      android:text="@string/investopedia"
+      android:textSize="20sp"/>
+
+
+  </LinearLayout>
+</ScrollView>
