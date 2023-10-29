@@ -564,6 +564,7 @@
     <string name="investing_platforms">Investing Platforms</string>
 
     <string name="robinhood">Robinhood</string>
+    <string name="go_to_robinhood">Go To Robinhood</string>
 
 
     <string name="e_trade">E*TRADE</string>
@@ -589,12 +590,16 @@
     <string name="mint_mentor_logo">Mint Mentor Logo</string>
     <string name="bottom_navigation_stocks">Stocks</string>
     <string name="complete_database">Complete Lesson Database</string>
-    <string name="enter_ticker_symbol">Enter a Ticker Symbol</string>
+    <string name="enter_ticker_symbol">Search Stocks</string>
     <string name="open">Open</string>
     <string name="high">High</string>
     <string name="low">Low</string>
     <string name="close">Close</string>
     <string name="volume">Volume</string>
+    <string name="platform">Platform</string>
+    <string name="pros">Pros</string>
+    <string name="cons">Cons</string>
+    <string name="na">N/A</string>
 
 
 </resources>
