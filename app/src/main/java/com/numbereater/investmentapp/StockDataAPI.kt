@@ -99,8 +99,8 @@ class StockDataAPI {
         val request = createOpenCloseRequest(ticker)
 
         val response = client.newCall(request).execute()
-
-        return Gson().fromJson(response.body().string(), OpenCloseResponse::class.java)
+        val body = response.body().string().also(::println)
+        return Gson().fromJson(body, OpenCloseResponse::class.java)
     }
 
     private fun createOpenCloseRequest(ticker: String): Request {
@@ -129,7 +129,7 @@ class StockDataAPI {
         val day = c.get(Calendar.DAY_OF_MONTH)
 
         val date = GregorianCalendar(year, month, day)
-        date.add(Calendar.DATE, -31)
+        date.add(Calendar.DATE, -91)
 
         return String.format("%04d-%02d-%02d",
             date.get(Calendar.YEAR),
@@ -144,7 +144,7 @@ class StockDataAPI {
         val day = c.get(Calendar.DAY_OF_MONTH)
 
         val date = GregorianCalendar(year, month, day)
-        date.add(Calendar.DATE, -1)
+        date.add(Calendar.DATE, -2)
 
         return String.format("%04d-%02d-%02d",
             date.get(Calendar.YEAR),

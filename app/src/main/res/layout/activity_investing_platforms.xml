@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/investing_platform_fragment_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
-    tools:context=".InvestingPlatformsActivity">
+    android:layout_height="match_parent">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
 
     <TextView
         android:id="@+id/page_title"
@@ -21,27 +31,65 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <TextView
-        android:id="@+id/robinhood_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="@string/robinhood"
-
-        android:layout_margin="20dp"
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/page_title"/>
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/darker_gray"/>
 
     <Button
         android:id="@+id/robinhood_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:drawableLeft="@drawable/robinhood_logo"
-        android:text="@string/go_to_robinhood"
-        style="@style/Widget.Material3.Button.OutlinedButton"/>
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/robinhood"
+        />
 
+    <Button
+        android:id="@+id/etrade_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/e_trade"
+        />
 
+    <Button
+        android:id="@+id/fidelity_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/fidelity"
+        />
+
+    <Button
+        android:id="@+id/ameritrade_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/td_ameritrade"
+        />
+
+    <Button
+        android:id="@+id/m1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/m1_finance"
+        />
+
+    <Button
+        android:id="@+id/merrill_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/merrill_lynch"
+        />
 </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

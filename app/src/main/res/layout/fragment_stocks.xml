@@ -1,84 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_alignParentTop="true">
 
-
-
-    <EditText
-        android:id="@+id/ticker_symbol_input"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textNoSuggestions"
-        android:hint="@string/enter_ticker_symbol"
-        android:layout_margin="30dp"
-        android:imeOptions="actionDone"
-        android:maxLines="1"/>
 
     <TextView
-        android:id="@+id/ticker_symbol_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="40dp"
-        android:layout_marginVertical="10dp"
+        android:textAlignment="center"
         android:textSize="35sp"
-        android:textAlignment="center"
-        android:text="@string/na"/>
+        android:text="@string/stock_utilities"
 
-    <TextView
-        android:id="@+id/stock_graph_link"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/stock_lookup_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
+        android:text="@string/stock_lookup"
         android:layout_marginHorizontal="30dp"
-        android:layout_marginVertical="10dp"
-        android:textSize="20sp"
-        android:textAlignment="center"
-        android:text="@string/na"/>
+        android:layout_marginVertical="10dp"/>
 
-    <ScrollView
+    <Button
+        android:id="@+id/profit_calculator_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
+
+        android:text="@string/profit_calculator"
         android:layout_marginVertical="10dp"
-        android:fillViewport="true">
-
-    <TableLayout
-        android:id="@+id/stock_data_table"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
-
-        <TableRow
-            android:gravity="center_horizontal">
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="0.25"
-                android:textSize="20sp"
-                android:text="@string/open"
-                android:textAlignment="center"/>
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="0.25"
-                android:textSize="20sp"
-                android:text="@string/high"
-                android:textAlignment="center"/>
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="0.25"
-                android:textSize="20sp"
-                android:text="@string/low"
-                android:textAlignment="center"/>
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="0.25"
-                android:textSize="20sp"
-                android:text="@string/close"
-                android:textAlignment="center"/>
-        </TableRow>
-
-    </TableLayout>
-
-    </ScrollView>
+        android:layout_marginHorizontal="30dp"/>
 
 </LinearLayout>

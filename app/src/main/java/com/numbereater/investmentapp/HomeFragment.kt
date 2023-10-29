@@ -32,15 +32,6 @@ class HomeFragment : BottomNavigationFragment() {
             lessonsCompleted
         )
 
-        val completeDatabaseButton = layout.findViewById<Button>(R.id.complete_database_button)
-        completeDatabaseButton.setOnClickListener {
-            completeDatabase()
-        }
-        val clearDatabaseButton = layout.findViewById<Button>(R.id.clear_database_button)
-        clearDatabaseButton.setOnClickListener {
-            clearDatabase()
-        }
-
         return layout
     }
 

@@ -75,7 +75,6 @@
     <string name="investopedia"><a href="https://www.investopedia.com/">Investopedia</a>: This can help with any investing questions that may arise. It is a fantastic resource.</string>
 
 
-
     <!-- Investment Basics -->
     <string name="investment_basics">Investment Basics</string>
 
@@ -161,8 +160,6 @@
     <string name="investment_basics_q5_a5">An Index</string>
 
 
-
-
     <!-- Setting Financial Goals -->
     <string name="financial_goals">Setting Financial Goals</string>
     <string name="financial_goals_p1">There are many steps to setting effective and reachable financial goals.</string>
@@ -177,7 +174,7 @@
 
     <string name="financial_goals_p6">We’ll start talking about how you can meet these financial goals by investing now, and talk about Investment Securities.</string>
 
-    
+
     <string name="financial_goals_q1">The first step in the financial goal setting process is</string>
     <string name="financial_goals_q1_a1">Brainstorm any potential goals</string>
     <string name="financial_goals_q1_a2">Ensuring goals are realistic</string>
@@ -327,11 +324,6 @@
     <string name="investment_securities_q10_a5">Cows</string>
 
 
-
-
-
-
-
     <!-- Risk and Return -->
     <string name="risk_and_return">Risk &amp; Return</string>
 
@@ -382,7 +374,6 @@
     <string name="risk_return_q5_a3">Meme stocks are often more volatile than typical stocks, which can result in larger losses</string>
     <string name="risk_return_q5_a4">Meme stocks are often too expensive to purchase</string>
     <string name="risk_return_q5_a5">Meme stocks increase in price too fast</string>
-
 
 
     <!-- Portfolio Construction -->
@@ -444,7 +435,6 @@
     <string name="portfolio_construction_q5_a5">Both b and c are possible</string>
 
 
-
     <!-- Investment Strategies -->
     <string name="investment_strategies">Investment Strategies, Research, and Analysis</string>
 
@@ -500,7 +490,6 @@
     <string name="investment_strategies_q5_a3">The stock is likely to have a dividend</string>
     <string name="investment_strategies_q5_a4">The stock is likely more risky than a typical value stock</string>
     <string name="investment_strategies_q5_a5">The stock is likely to be affected by rising interest rates by the federal reserve</string>
-
 
 
     <!-- Tax Considerations -->
@@ -559,12 +548,10 @@
     <string name="tax_considerations_q5_a5">Answers A and D are both true</string>
 
 
-
     <!-- Investing Platforms -->
     <string name="investing_platforms">Investing Platforms</string>
 
     <string name="robinhood">Robinhood</string>
-    <string name="go_to_robinhood">Go To Robinhood</string>
 
 
     <string name="e_trade">E*TRADE</string>
@@ -581,8 +568,9 @@
 
     <string name="wealthfront">Wealthfront</string>
 
-
     <string name="merrill_lynch">Merrill Lynch</string>
+
+
     <string name="check_answer">Check Answer</string>
     <string name="finish_quiz">Finish Quiz</string>
     <string name="your_progress">Your Progress</string>
@@ -600,6 +588,43 @@
     <string name="pros">Pros</string>
     <string name="cons">Cons</string>
     <string name="na">N/A</string>
+    <string name="calculate_stock_profits">Calculate Stock Profits</string>
+    <string name="stock_utilities">Stock Utilities</string>
+    <string name="stock_lookup">Stock Lookup</string>
+    <string name="profit_calculator">Profit Calculator</string>
+    <string name="symbol_stock_purchased">Symbol of Stock Purchased</string>
+    <string name="price_time_of_purchase">Price at Time of Purchase</string>
+    <string name="quantity_purchased">Quantity Purchased</string>
+    <string name="calculate">Calculate</string>
+
+
+    <string name="go_to_robinhood"><a href="https://www.robinhood.com/">Go To Robinhood</a></string>
+    <string name="robinhood_pros">Benefits: Robinhood is known for its user-friendly interface and commission-free trading. It offers a mobile app that appeals to beginners and provides easy access to stocks, options, cryptocurrencies, and fractional shares. The platform also offers cash management accounts.</string>
+    <string name="robinhood_cons">Cons: Some criticize Robinhood for its limited research tools and lack of investment education. There have been concerns about the platform\'s order execution practices and its gamification of investing, which can lead to big losses.</string>
+
+    <string name="go_to_etrade"><a href="https://us.etrade.com/">Go To E*TRADE</a></string>
+    <string name="etrade_pros">Benefits: ETRADE offers a wide range of investment options, including stocks, bonds, options, and mutual funds. They provide a variety of research tools, educational resources, and a robust trading platform. ETRADE also has a strong mobile app.</string>
+    <string name="etrade_cons">Cons: Fees for trading can be higher compared to commission-free platforms. Some users might find the platform overwhelming due to its many features.</string>
+
+    <string name="go_to_fidelity"><a href="https://www.fidelity.com/">Go To Fidelity</a></string>
+    <string name="fidelity_pros">Benefits: Fidelity is known for its extensive research tools, educational resources, and a wide range of investment options. They offer commission-free trading and have a user-friendly platform. Fidelity also provides excellent customer service.</string>
+    <string name="fidelity_cons">Cons: Some mutual funds may have transaction fees, and the platform may not be as intuitive for beginners as some other options.</string>
+
+    <string name="go_to_ameritrade"><a href="https://www.schwab.com/">Go To TD Ameritrade</a></string>
+    <string name="ameritrade_pros">Benefits: TD Ameritrade offers a powerful trading platform with advanced tools, a vast selection of investment products, and a well-regarded mobile app. They also provide a wealth of educational content.</string>
+    <string name="ameritrade_cons">Cons: Like E*TRADE, trading fees can add up for active traders. The platform may be complex for newcomers.</string>
+
+    <string name="go_to_m1"><a href="https://www.m1finance.com/">Go To M1 Finance</a></string>
+    <string name="m1_pros">Benefits: M1 Finance combines automated investing with customizable portfolios. It allows users to invest in fractional shares and offers commission-free trading. The platform is well-suited for long-term investors.</string>
+    <string name="m1_cons">Cons: It may not be ideal for active traders or those looking for a full-service brokerage with advanced tools and research.</string>
+
+    <string name="go_to_wealthfront"><a href="https://www.wealthfront.com/">Go To Wealthfront</a></string>
+    <string name="wealthfront_pros">Benefits: Wealthfront is a robo-advisor that offers automated, low-cost investment portfolios based on your risk tolerance and financial goals. It\'s a hands-off approach to investing.</string>
+    <string name="wealthfront_cons">Cons: Limited customization options and personal interaction compared to traditional brokerages. Not suitable for those who prefer active management or want to select individual stocks.</string>
+
+    <string name="go_to_merrill"><a href="https://www.ml.com/">Go To Merrill Lynch</a></string>
+    <string name="merrill_pros">Benefits: Merrill Lynch is known for its strong emphasis on wealth management and personalized financial advice. It provides a wide range of investment products, including stocks, bonds, mutual funds, and alternative investments. Merrill offers access to Bank of America\'s banking services, which can be convenient for clients.</string>
+    <string name="merrill_cons">Cons: Merrill tends to cater more to high-net-worth individuals, so its fee structure might be less competitive for smaller investors. The platform\'s focus on personalized advice means it may not be as self-directed as other options. It is a great platform but costly.</string>
 
 
 </resources>

@@ -15,6 +15,58 @@ object Constants {
     const val LESSON_COMPLETE_INTENT_TAG = "lesson-complete"
     const val LESSON_ID_INTENT_TAG = "lesson-id"
     const val QUIZ_JSON_INTENT_TAG = "quiz-json"
+
+    val INVESTING_PLATFORMS = arrayOf(
+        InvestingPlatform(
+            R.string.robinhood,
+            R.string.robinhood_pros,
+            R.string.robinhood_cons,
+            R.string.go_to_robinhood,
+            R.drawable.robinhood_logo
+        ),
+        InvestingPlatform(
+            R.string.e_trade,
+            R.string.etrade_pros,
+            R.string.etrade_cons,
+            R.string.go_to_etrade,
+            R.drawable.etrade_logo
+        ),
+        InvestingPlatform(
+            R.string.fidelity,
+            R.string.fidelity_pros,
+            R.string.fidelity_cons,
+            R.string.go_to_fidelity,
+            R.drawable.fidelity_logo
+        ),
+        InvestingPlatform(
+            R.string.td_ameritrade,
+            R.string.ameritrade_pros,
+            R.string.ameritrade_cons,
+            R.string.go_to_ameritrade,
+            R.drawable.ameritrade_logo
+        ),
+        InvestingPlatform(
+            R.string.m1_finance,
+            R.string.m1_pros,
+            R.string.m1_cons,
+            R.string.go_to_m1,
+            R.drawable.m1_logo
+        ),
+        InvestingPlatform(
+            R.string.wealthfront,
+            R.string.wealthfront_pros,
+            R.string.wealthfront_cons,
+            R.string.go_to_wealthfront,
+            R.drawable.wealthfront_logo
+        ),
+        InvestingPlatform(
+            R.string.merrill_lynch,
+            R.string.merrill_pros,
+            R.string.merrill_cons,
+            R.string.go_to_merrill,
+            R.drawable.merrill_logo
+        )
+    )
     
     val QUIZZES = arrayOf(
         LessonQuiz(
